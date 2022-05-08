@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Alien invasion!</title>
+
+</head>
+
+<body>
+    <div class="screen">
+        <p>Artwork by Kirpatrick Collu</p>
+        <h1>Stop the Invasion!</h1>
+        <button class="btn" id="start-btn">Play Game</button>
+
+    </div>
+    <div class="screen">
+        <h1>pick your choice of Enemy invasion! </h1>
+        <ul class="aliens-list">
+            <li>
+                <button class="choose-alien-btn">
+                    <p>Black Widow</p> 
+                    <img src="alienShips/Widow.png" alt="blkWidow">     
+                </button>
+            </li>
+            <li>
+                <button class="choose-alien-btn">
+                    <p>Small Purple Drone</p> 
+                    <img src="alienShips/PurpDrone.png" alt="PrplDrone">     
+                </button>
+            </li>
+            <li>
+                <button class="choose-alien-btn">
+                    <p>Comander</p> 
+                    <img src="alienShips/Cmder.png" alt="Cmdr">     
+                </button>
+            </li>
+            <li>
+                <button class="choose-alien-btn">
+                    <p>BlueRay</p> 
+                    <img src="alienShips/Blue.png" alt="Blueknight">     
+                </button>
+            </li>
+            <li>
+                <button class="choose-alien-btn">
+                    <p>Alien Boss</p> 
+                    <img src="alienShips/AlienBoss.png" alt="Boss">     
+                </button>
+            </li>
+        </ul>
+    </div>
+    <div class="screen game-container" id="game-container">
+        <h3 id="time" class="time">Time: 00:00</h3>
+        <h3 id="score" class="score">Score: 0</h3>
+        <h5 id="message" class="message">
+            Ready to give up puny human???<br> My army is unbeatable! We are the Future!!<br>
+        </h5>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
